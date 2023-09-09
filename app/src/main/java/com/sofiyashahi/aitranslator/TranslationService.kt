@@ -16,7 +16,7 @@ class TranslationService {
 
     private val TAG = "TranslationService"
     private val url = "https://api.openai.com/v1/completions"
-    private val apiKey = "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"
+    private val apiKey = "YOUR_API_KEY"
     private val client = OkHttpClient()
 
     fun translateText(sourceText: String, sourceLanguage: String, targetLanguage: String, callback: (String) -> Unit){
